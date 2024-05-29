@@ -1,0 +1,10 @@
+#myList {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  transition: ease-in-out;
+  transition-duration: 200ms;
+}
+#myList li {
+  margin: 5px 0;
+}
