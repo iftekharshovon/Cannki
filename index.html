@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cannki</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
+
   </head>
 
   <body class="h-dvh w-full bg-gradient-to-br from-indigo-500 to-emerald-700">
@@ -508,17 +510,16 @@
           </div>
           <div class="flex gap-4 justify-evenly items-center">
             <a
-            href="#"
-            class="block text-slate-300 hover:text-slate-100 duration-200 ease-in-out"
-            >Login</a
-          >
-          <a
-            href="#"
-            class="bg-gradient-to-bl from-orange-800 to-purple-700hover:bg-gradient-to-br hover:to-purple-500 hover:from-orange-600 ease-in-out duration-300 text-white font-semibold py-2 px-4 rounded-lg shadow-md"
-            >Get Started</a
-          >
+              href="#"
+              class="block text-slate-300 hover:text-slate-100 duration-200 ease-in-out"
+              >Login</a
+            >
+            <a
+              href="#"
+              class="bg-gradient-to-bl from-orange-800 to-purple-700hover:bg-gradient-to-br hover:to-purple-500 hover:from-orange-600 ease-in-out duration-300 text-white font-semibold py-2 px-4 rounded-lg shadow-md"
+              >Get Started</a
+            >
           </div>
-          
         </div>
       </div>
     </nav>
@@ -572,7 +573,7 @@
             </div>
           </div>
         </div>
-        <div class="my-10">
+        <div data-aos="fade-up" class="my-10">
           <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-6">
             <div class="lg:text-left text-center text-slate-200 space-y-5">
               <h4 class="text-xl lg:text-4xl font-medium text-slate-300">
@@ -640,7 +641,7 @@
             </div>
           </div>
         </div>
-        <div class="mt-10">
+        <div data-aos="fade-up" class="mt-10">
           <div class="w-3/5 mx-auto text-center mb-10 space-y-8">
             <p
               class="text-sm text-slate-300 p-1 border border-solid border-default-300 rounded-xl inline-block"
@@ -1114,5 +1115,9 @@
       </div>
     </footer>
     <script src="js/script.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
